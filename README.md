@@ -1,4 +1,4 @@
-###fork from https://jitpack.io/v/ahmadaghazadeh/CodeEditor
+###fork from https://github.com/ahmadaghazadeh/CodeEditor
 
 # CodeEditor   [![](https://jitpack.io/v/ahmadaghazadeh/CodeEditor.svg)](https://jitpack.io/#ahmadaghazadeh/CodeEditor) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CodeEditor-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7185)
 
