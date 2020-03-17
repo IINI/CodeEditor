@@ -1,3 +1,5 @@
+###fork from https://jitpack.io/v/ahmadaghazadeh/CodeEditor
+
 # CodeEditor   [![](https://jitpack.io/v/ahmadaghazadeh/CodeEditor.svg)](https://jitpack.io/#ahmadaghazadeh/CodeEditor) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CodeEditor-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7185)
 
 This is a text/code(Base From [ModPE IDE] ) editor meant for integration as a modular component of the overall UI.
