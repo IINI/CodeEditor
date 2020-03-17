@@ -1247,9 +1247,9 @@ public class TextProcessor extends AppCompatMultiAutoCompleteTextView implements
 
     protected void validateTextSize() {
         if (textSize < 10) //minimum
-            textSize = 10; //minimum
+            textSize = 8; //minimum
         else if (textSize > 20) //maximum
-            textSize = 10; //maximum
+            textSize = 8; //maximum
     }
 
     /**

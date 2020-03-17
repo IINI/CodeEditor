@@ -70,7 +70,7 @@ public class DefaultSetting implements ITextProcessorSetting {
 
     @Override
     public int getFontSize() {
-        return pref.getInt("FONT_SIZE", 11); //default
+        return pref.getInt("FONT_SIZE", 8); //default
     }
 
     @Override
