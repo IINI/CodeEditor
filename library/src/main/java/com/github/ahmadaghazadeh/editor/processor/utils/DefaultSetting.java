@@ -70,7 +70,7 @@ public class DefaultSetting implements ITextProcessorSetting {
 
     @Override
     public int getFontSize() {
-        return pref.getInt("FONT_SIZE", 14); //default
+        return pref.getInt("FONT_SIZE", 11); //default
     }
 
     @Override
@@ -80,7 +80,7 @@ public class DefaultSetting implements ITextProcessorSetting {
 
     @Override
     public boolean getShowLineNumbers() {
-        return pref.getBoolean("SHOW_LINE_NUMBERS", true);
+        return pref.getBoolean("SHOW_LINE_NUMBERS", false);
     }
 
     @Override

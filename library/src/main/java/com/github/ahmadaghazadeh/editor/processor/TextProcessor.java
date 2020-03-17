@@ -1003,8 +1003,8 @@ public class TextProcessor extends AppCompatMultiAutoCompleteTextView implements
     protected void syntaxHighlight(Layout layout, Editable editable,
                                    int lineHeight, int lineCount, int scrollY, int height) {
         if (mSyntaxHighlight && layout != null) {
-            int topLine = (scrollY / lineHeight) - 10;
-            int bottomLine = (((scrollY + height) / lineHeight) + 1) + 10;
+            int topLine = (scrollY / lineHeight) - 1;
+            int bottomLine = (((scrollY + height) / lineHeight) + 1) + 1;
             if (topLine < 0) {
                 topLine = 0;
             }
@@ -1249,7 +1249,7 @@ public class TextProcessor extends AppCompatMultiAutoCompleteTextView implements
         if (textSize < 10) //minimum
             textSize = 10; //minimum
         else if (textSize > 20) //maximum
-            textSize = 20; //maximum
+            textSize = 10; //maximum
     }
 
     /**

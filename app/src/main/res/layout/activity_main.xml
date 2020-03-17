@@ -11,10 +11,12 @@
     </data>
     <LinearLayout
         android:orientation="vertical"
+        android:background="#323232"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <com.github.ahmadaghazadeh.editor.widget.CodeEditor
             android:id="@+id/editor"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             bind:code="@{viewModel.code}"

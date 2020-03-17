@@ -175,7 +175,7 @@ public class CodeEditor extends FrameLayout {
             editor.setReadOnly(isReadOnly);
 
             FastScrollerView mFastScrollerView = new FastScrollerView(context);
-            FrameLayout.LayoutParams fastParam = new FrameLayout.LayoutParams(30, LayoutParams.MATCH_PARENT);
+            FrameLayout.LayoutParams fastParam = new FrameLayout.LayoutParams(10, LayoutParams.MATCH_PARENT);
             //fastParam.addRule(RelativeLayout.ALIGN_PARENT_RIGHT, TRUE);
             fastParam.gravity = Gravity.END;
 
