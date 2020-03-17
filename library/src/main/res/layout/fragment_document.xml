@@ -38,7 +38,7 @@
         android:scrollbarStyle="insideInset"
         android:layerType="software"
         android:id="@+id/editor"
-        android:textColor="#ffffff"
+        android:textColor="#f4f4f4"
         android:background="?attr/colorDocBackground"
         android:popupBackground="?attr/colorDropDown"
         android:bufferType="spannable"
@@ -54,7 +54,7 @@
 
     <!-- Fast Scroller -->
     <com.github.ahmadaghazadeh.editor.widget.FastScrollerView
-        android:layout_width="10dp"
+        android:layout_width="8dp"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:id="@+id/fast_scroller"/>
